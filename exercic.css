@@ -1,0 +1,28 @@
+@media all and(min-width:1024px){
+body{background-color:orange;}}
+@media all and(max-width:1024px){body{background-color:red;}}
+#madiv{width:300px;
+height:300px;
+background-color:#4444AA;
+margin:100px;
+cursor:pointer;
+transition:all 1s ease;
+transform-origin:50% 50%;
+box-shadow:20px 20px 20px #000;
+
+}
+#madiv:hover{background-color:#EE6600;
+transform:scale(1.2px);
+transform:skewX(20deg) skewY(30deg);
+/*transform:translate(1000px,1000px);*/
+/*border-radius:100px;
+transition-property:all;
+transition-duration:1s;*/
+transform:perspective(400px)rotateX(1000deg);
+
+transition:all 1s ease;}/*ease,linear,ease-in,ease-out,ease-in-out*/
+
+
+
+
+ 
